@@ -1,0 +1,13 @@
+* {
+    margin: 0 auto 0 auto; /* centers the whole page*/
+}
+
+body{
+    font-size: 20px;
+}
+
+#ChangeColor ul:hover{
+        
+        color: blue;
+        font-size: 40px;
+    } 

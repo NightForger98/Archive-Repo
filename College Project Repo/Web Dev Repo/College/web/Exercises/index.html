@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myscript.js" > </script>
+</head>
+<body>
+  <table border="1" id="tb">
+        <tr>
+            <td>CSCI200</td>
+            <td>Introduction to Computers</td>
+        </tr>
+        <tr>
+            <td>CSCI250</td>
+            <td>Introduction to Programming</td>
+        </tr>
+        <tr>
+            <td>CSCI305</td>
+            <td>Web Programming Static</td>
+        </tr>
+</table>
+    <p>
+        Course code: <input type="text">
+    </p>
+    <p>
+        Course description: <input type="text">
+    </p>
+  <button onclick="addCourse()">Add course</button>
+
+  <p>
+        <select id="city">
+            <option>Beirut</option>
+            <option>Tripoli</option>
+            <option>Jounieh</option>
+        </select>
+    </p>
+    <p>
+        City <input type="text">
+        <input type="checkbox" id="addToTop">
+        <label for="addToTop">Add to Top</label>
+    </p>
+    <p>
+        <button onclick="addCity()">Add</button>
+        <button onclick="removeCity()">Remove</button>
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events by S.|Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <style>
+body{
+    background:linear-gradient(-45deg, white 50%, #f7b9d7 0%);
+}
+.service-section h1{
+text-align: center;
+padding: 25px 0px;
+}
+.content{
+width:1170px ;
+margin: auto;
+display: flex;
+justify-content: space-around;
+}
+.content img{
+    height: 150px;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 15px;
+
+}
+.services-item{
+    flex-basis: 30%;
+    background: white;
+    margin: 10px;
+    margin-top: 20px;
+    border: 2px solid white ;
+    border-radius: 10px;
+    height: 400px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.4s;
+    background:lightpink;
+}
+.services-item:hover{
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 10px 10px rgba(0,0,0,0.23); 
+        transform: translate(0px, -8px);
+        background: white;
+}
+.services-item h1{
+font-size: 30px;
+
+}
+h1 span{
+    color: #621940;
+}
+.services-item p{
+    text-align: center;
+       padding: 10px;
+        margin-left: 5px;
+        margin-top: 10px;
+}
+.services-item button{
+        text-align: center;
+            color:white;
+            width:50%;
+            padding:15px;
+            border-radius: 10px;
+            font-size: 20px;
+            margin: 10px 0;
+            margin-top: 5px;
+            outline:none;
+            cursor: pointer;
+            margin-top: 20px;
+           }
+
+.services-item a{
+    text-decoration: none;
+    color: white;
+}
+.services-item a:hover button{
+     color: white;
+    background-color: blue;
+}
+@media only screen and (max-width:650px){
+        .content{
+            width: 80%;
+            flex-direction: column;
+        } 
+    }
+    @media only screen and (min-width:768px){
+        .content{
+                width:1170px ;
+                margin: auto;
+                display: inline-block;
+                justify-content: space-around;
+                }
+    }
+        </style>
+ <header>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo" text="white">
+                <span class="text-primary">decorated </span>by <span class="text-primary">Sa.</span>
+            </h1>
+            <ul>
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About us </a>
+                </li>
+               
+                <li class="nav-item dropdown">
+                    <a href="services.html" class="dropbtn">Services</a>
+                    <div class="dropdown-content">
+                        <a  href="formA.html">Packages</a>
+                        <a  href="formB.html">Catering</a>
+                        <a  href="formC.html">Offers</a>
+                    </div>
+                </li> 
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropbtn">Show Rooms</a>
+                    <div class="dropdown-content">
+                     <a  href="#">Sets/Templates</a>
+                     <a  href="#">Popular</a>
+                    <a  href="formD.html">Custom</a>
+                    </div>
+                </li> 
+             <li><a href="contact.html" class="nav-link">Contact us </a></li>
+            </ul>
+            </div>
+           </nav>
+            </header>
+                        <div class="service-section">
+                            <h1><b> Explore  our <span> Services</span></b></h1>
+                            <div class="content">
+                                <div class="services-item">
+                                    <img src="images/bd1.jpeg">
+                                    <h1> Dinner Parties</h1>
+                                    <p><b>Whether engagments or reunuions, we're up to the task.</b></p>
+                                    <button class="btn1"><a href="formD.html">Custom</a></button>
+                                </div>
+                                <div class="services-item">
+                                    <img src="images/bd2.jpeg">
+                                    <h1> Birthday Parties</h1>
+                                    <p><b>Lets celebrate that special together!</b></p>
+                                    <button class="btn1"><a href="formC.html" >Offers</a></button>
+                                </div>
+                                <div class="services-item">
+                                    <img src="images/kid1.jpeg">
+                                    <h1> Children Parties</h1>
+                                    <p><b>Lots of fun activities for the kids & a respite for the Parents.</b></p>
+                                    <button class="btn1"><a href="formA.html">packages</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <footer class="main-footer">
+                            <p> Design by S. &#169 | All rights Reserved by Design by S.</p>
+                        </div>
+                        </footer>
+    </body>
+    </html>

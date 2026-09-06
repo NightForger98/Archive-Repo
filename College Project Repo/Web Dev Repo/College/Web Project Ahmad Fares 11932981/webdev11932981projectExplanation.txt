@@ -1,0 +1,17 @@
+web project Explanation:
+css:
+1 style sheet responsible for the header and navigation panel
+html & Js:
+1.index.html<= home.html: html only no Js (Navigation panel)
+2.about: Js for responsive web page (column stack on phone), spread on pc.
+ + element interaction via mouse or touch hover.
+3.contact:Js for desktop and Js for mobile stack and input for both.
+4.Services:Js single (works on pc), encountered errors on mobile
+5.FormA:(Packages) Js for wrapping elements horizontaly on pc vertically on mobile
+6.FormB:(Catering) //
+7.FormC:(Offers) Js for media float on mobile and desktop spread (encountered errors on mobile) + element wrap and form.
+8.FormD: (Custom) Js for custom element edition to be loaded in => form 4res (errors on mobile and desktop> all elements loaded)
+8.FormAres:(packages checkout)Js for wrapping elements (didn't have time to create database) 
+9.FormBres:(Catring checkout) //
+10.FormCres:(Offers checkout) // 
+11FormDres:(Customs checkout) Js for element wrapping and media float of elements in checkout(no db implementations)

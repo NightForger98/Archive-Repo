@@ -1,0 +1,6 @@
+SportName,EquipmentUsed
+Basket    ,4
+Football  ,1
+MMA       ,3
+pingpong  ,7
+Tennis    ,5

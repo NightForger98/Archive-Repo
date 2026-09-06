@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="action.php"  >
+        <table  style="border: 1px; border-collapse: collapse; border-style: solid;text-align: center; width: 50%;">
+            <tr>
+                <td>First Name</td>
+                <td> <input type="text" id="fname" ></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td> <input type="text" id="lname" ></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td> <select id="city" name="address">
+                    <option value="B"> Beirut</option>
+                    <option value="S"> Saida</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td> 
+                  Female  <input type="radio" name="g" id="f" value="Female">
+                  Male  <input type="radio" name="g"  id="m" value="male">
+            </td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td> <input type="checkbox" name="l" value="eng" id="c1">English 
+                  - <input type="checkbox" name="l" value="ar">   Arabic
+                   -  <input type="checkbox" name="l" value="fr">French
+                </td>
+            </tr>
+            <tr>
+                <td>Comment</td>
+                <td> 
+                    <textarea  rows="10" cols="30" id="comment"> comment here </textarea>
+               
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Save"></td>
+                <td> <input type="reset" value="Clear"></td>
+            </tr>
+        </table>
+ 
+
+
+
+    </form>
+</body>
+</html>

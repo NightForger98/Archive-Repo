@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>decorated by Sa.|apply</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body{
+    background:linear-gradient(-45deg, white 50%, #2404f7 0%);
+}
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; 
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media (max-width: 650px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+
+    </style>
+ <header>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo" text="white">
+                <span class="text-primary">decorated </span>by <span class="text-primary">Sa.</span>
+            </h1>
+            <ul>
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About us </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="services.html" class="dropbtn">Services</a>
+                    <div class="dropdown-content">
+                     <a  href="formA.html">Packages</a>
+                    <a  href="formB.html">Catering</a>
+                     <a  href="formC.html">Offers</a>
+                  
+                    </div>
+                </li> 
+                <li class="nav-item dropdown">
+                    <a href="services.html" class="dropbtn">Showrooms</a>
+                    <div class="dropdown-content">
+                        <a  href="#">Sets / Templates</a>
+                        <a  href="#">Popular</a>
+                        <a  href="formD.html">Custom</a>
+                    </div>
+                </li> 
+             <li><a href="#contact" class="nav-link">Contact us </a></li>
+            </ul>
+            </div>
+           </nav>
+            </header>
+                    <br>
+                    <div class="row">
+                        <div class="col-75">
+                          <div class="container">
+                            <form action="/action_page.php">
+                      
+                              <div class="row">
+                                <div class="col-50">
+                                  <h3> Custom Plan</h3>
+                                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                  <input type="text" id="email" name="email" placeholder="john@example.com">
+                      
+                                  <div class="row">
+                                    <div class="col-50">
+                                      <label for="state">State</label>
+                                      <input type="text" id="state" name="state" placeholder="NY">
+                                    </div>
+                                    <div class="col-50">
+                                      <label for="zip">Zip</label>
+                                      <input type="text" id="zip" name="zip" placeholder="10001">
+                                    </div>
+                                  </div>
+                                </div>
+                      
+                                <div class="col-50">
+                                  <h3>Payment</h3>
+                                  <label for="fname">Accepted Cards</label>
+                                  <div class="icon-container">
+                                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                  </div>
+                                  <label for="cname">Name on Card</label>
+                                  <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                                  <label for="ccnum">Credit card number</label>
+                                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                                  <label for="expmonth">Start Month</label>
+                                  <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                      
+                                  <div class="row">
+                                    <div class="col-50">
+                                      <label for="expmonth">End Month</label>
+                                      <input type="text" id="expyear" name="expyear" placeholder="january">
+                                    </div>
+                                  </div>
+                                </div>
+                      
+                              </div>
+                              <input type="submit" value="Continue to checkout" class="btn">
+                            </form>
+                          </div>
+                        </div>
+                      
+                        <div class="col-25">
+                          <div class="container">
+                            <h4>Cart
+                              <span class="price" style="color:black">
+                                <i class="fa fa-shopping-cart"></i>
+                                <b>4</b>
+                              </span>
+                            </h4>
+                            <p><a href="#">Music</a> <span class="price">$15</span></p>
+                            <p><a href="#">Photography</a> <span class="price">$20</span></p>
+                            <p><a href="#"> </a> <span class="price">$30</span></p>
+                            <p><a href="#">Catering</a> <span class="price">$50</span></p>
+                            <hr>
+                            <p>Total <span class="price" style="color:black"><b>$115</b></span></p>
+                          </div>
+                        </div>
+                      </div>
+</body>
+</html>

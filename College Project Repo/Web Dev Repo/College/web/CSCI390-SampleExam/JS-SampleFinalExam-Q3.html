@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sample Final Exam JS-Q2</title>
+    <script src ="JS/myscript.js" > </script> 
+    <link href = "CSS/mystyle.css"  rel ="stylesheet">
+</head>
+<body>
+    <h1>Spring Semester 2022-2023</h1>
+    <h2>JS-Q2 - CSCI390 Sample Final Exam</h2>
+    
+    <table onmouseover="size1(this)" onmouseout="size2(this)" >
+        <thead>
+            <th>Employee Name</td>
+            <th>Number of hours</td>
+            <th>Salary</td>            
+        </thead>                
+        <tr>
+            <td>Iman</td>
+            <td>10</td>
+            <td>345</td>
+        </tr>
+    </table>
+    <br> 
+    Cost for one hour: <input type="text" value="75" id="cost1" size="2" disabled><br>   
+    <p>
+        Add an employee: <input type="text">
+    </p>
+    <p>
+        Number of hours: &nbsp;<input type="number" id="q1">
+    </p>
+    
+    <button onclick="addEmployee()">Calculate the Salary</button>
+    <h3 id="out"></h3>
+    
+</body>
+</html>

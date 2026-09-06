@@ -1,0 +1,6 @@
+BuildingID,BuildingName,Type,Area,FreeArena,SportPlayed,EquipmentLot
+1,Agasi                         ,External  ,500,2,Tennis    ,6
+2,Zidan                         ,External  ,1000,1,Football  ,1
+3,Jordan                        ,Internal  ,900,2,Basket    ,4
+4,Yarmagov                      ,Internal  ,300,2,MMA       ,3
+5,Baggaley                      ,Internal  ,500,3,pingpong  ,7

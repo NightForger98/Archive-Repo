@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events by S.|Custom </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+body{
+    background:linear-gradient(-45deg, white 50%, #78cdab 0%);
+}
+.heading{  
+        background-image:linear-gradient(rgba(0, 0, 0, 0.336),rgba(0, 0, 1, 0.342)),url(image/gym.jpg);
+        height: 100%;
+        background-size: cover;
+        background-position: center; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px auto;
+       }
+       .heading h1{
+       text-align: center;
+       color: white;
+       margin-top: 1rem;
+       }
+       .border{
+           width: 100px;
+           height: 10px;
+           background: indianred;
+           margin: 40px auto;
+       }
+       .heading p{
+           font-size: 18px;
+           color: white;
+           margin-bottom: 35px;
+       }
+       .containet{
+           width: 90%;
+           margin: 0 auto;
+           margin-top: auto;
+           padding: 10px 20px;
+           text-align: center;
+           display: flex;
+           flex-wrap: wrap;
+
+       }
+       .about-box{
+        flex: 1 1 25rem;
+       }
+       .about-image{
+           margin-right: 40px;
+           overflow: hidden;
+       }
+       .about-image img{
+           max-width: 70%;
+           margin-left: 5px;
+           margin-top: 15px;
+           height: auto;
+           transition: 0.5s ease;
+           object-fit: contain;
+       }
+       .about-image:hover img{
+           transform: scale(1.2);
+       }
+       .about-containt{
+           flex: 1;
+           display: block;
+       }
+       .about-containt h2{
+           font-size: 26px;
+           margin-bottom: 15px;
+           color: #000;
+       }
+       .about-containt p{
+           font-size: 19px;
+           line-height: 1.5;
+           color: #000;
+           padding: 0.7rem;
+       }
+       
+       .box {
+           float: left;
+           width: 33.3%;
+           text-align: center;
+           padding: 50px 0;
+       }
+       .bg-primary1{
+        background-color: #78cdab;
+       }
+       .main-footer {
+           background: #333333;
+           color: #fff;
+           text-align: center;
+           padding: 20px;
+       }
+       @media screen and (max-width:768px){
+           .heading{
+               padding: 0 20px;
+           }
+           .heading h1{
+       font-size: 36px;
+           }
+           .heading p{
+               font-size: 17px;
+               margin-bottom: 0px;
+           }
+           .container{
+               padding: 0px;
+           }
+           .about{
+               padding: 20px;
+               flex-direction: column;
+           }
+           .about-image{
+               margin-right: 0px;
+               margin-bottom: 15px;
+           }
+           .about-containt P{
+               padding: 0px;
+               font-size: 16px;
+           }
+           .about-containt.booking{
+       font-size: 16px;
+           }
+           
+       }
+
+
+
+    </style>
+   <div class="navbar">
+        <div class="container">
+            <div class="menu">
+            <h1 class="logo" text="white">
+                <span class="text-primary">decorated </span>by <span class="text-primary">Sa.</span>
+            </h1>
+        <ul>
+            <li><a href="home.html"> home</a></li>
+            <li><a href="about.html"> about us</a></li>
+            <li class="nav-item dropdown">
+                <a href="services.html" class="dropbtn">Services</a>
+                <div class="dropdown-content">
+                    <a  href="formA.html">Packages</a>
+                    <a  href="formB.html">Catering</a>
+                    <a  href="formC.html">Offers</a>
+                </div>
+            </li> 
+            <li class="nav-item dropdown">
+                <a href="#" class="dropbtn">Show Rooms</a>
+                <div class="dropdown-content">
+                 <a  href="#">Sets / Templates</a>
+                 <a  href="#">Popular</a>
+                <a  href="formD.html">Custom</a>
+                </div>
+            </li> 
+            <li><a href="contact.html"> contact us</a></li>
+
+            </div>
+        </ul>
+        </div>
+    </div>
+        <div class="heading">
+            <h1> Custom Event</h1>
+            <div class="border"></div>
+            <p> Specify Which of our services you would like, and create your custom Package </p>
+        </div>
+        
+    <section class="about"> 
+        <div class="containet">
+        <div class="about-box">
+        <div class="about-image">
+            <img src="images/bd3.jpeg">
+        </div>
+        <div class="about-containt">
+            <h2>Room Design</h2>
+            <p> We can design the room or setting your in to whatever desired theme depending on the event.
+            </p>
+                <a href="formDres.html" class="btn1"> apply</a>
+        </div>
+    </div>
+       <br>
+        <div class="about-box">
+        <div class="about-image">
+            <img src="images/bd4.jpeg">
+        </div>
+        <div class="about-containt">
+            <h2>Catering</h2>
+            <p>Snacks, Desserts, Cakes & Beverages. as well as full meal courses should you desire</p>
+                <a href="formDres.html" class="btn1"> apply</a>
+        </div>
+</div>
+          <br>
+        <div class="about-box">
+        <div class="about-image">
+            <img src="images/bd5.jpeg">
+        </div>
+        <div class="about-containt">
+            <h2>Sound & Music Mixing</h2>
+            <p> You may choose your faivorite playlists and we will take care of the music throughout the event, 
+                or you can leave it to our professional sound designer.</p>
+                <a href="formDres.html" class="btn1"> apply</a>
+        </div>
+        </div>
+
+        <br>
+        <div class="about-box">
+            <div class="about-image">
+                <img src="images/bd6.jpeg">
+            </div>
+            <div class="about-containt">
+                <h2>Photography</h2>
+                <p> Hire our photographer to ensure high quality pictures and videos of the memorable moments.</p>
+                    <a href="formDres.html" class="btn1"> apply</a>
+            </div>
+            </div>
+    </div>
+    </section>
+        
+        <br>
+        <section id="testimonials" class="py-3">
+            <div class="container">
+                <h2 class="l-heading">Available Team:</h2>
+                <br>
+                <div class="bg-primary1">
+                    <h3>Photographer Rayan </h3>
+                    <p>  A professional Photographer with a certificate and 4 years of experience.</p>
+                </div>
+                <div class=" bg-primary1">
+                    <h3>SoundMixer Alia</h3>
+                    <p> A Musician with a degree from LeConcervetoir that specializes in Sound Design.</p>
+                </div>
+            </div>
+        </section>
+        <br>
+        
+        <footer class="main-footer">
+            <p> Design by S. &#169 | All rights Reserved by Design by S.</p>
+        </div>
+        </footer>
+</div>
+</body>
+</html>

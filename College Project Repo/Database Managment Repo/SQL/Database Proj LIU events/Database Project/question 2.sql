@@ -1,0 +1,1 @@
+SELECT * FROM Equipment WHERE LotNumber NOT IN (SELECT EquipmentLot FROM Building);

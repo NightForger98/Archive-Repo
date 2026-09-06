@@ -1,0 +1,29 @@
+body{
+    font-size: 20px;
+}       
+.cs 
+{
+    background-color: red; 
+    width:860px
+}
+.ht 
+{
+    color: green;    
+}
+        
+ul a:hover 
+{
+    font-size:40px; 
+    color : blue;
+} 
+table , td 
+{    
+    border:1px solid black;
+    width: 50%;
+}
+th
+{
+    background-color: aqua;
+}
+
+     

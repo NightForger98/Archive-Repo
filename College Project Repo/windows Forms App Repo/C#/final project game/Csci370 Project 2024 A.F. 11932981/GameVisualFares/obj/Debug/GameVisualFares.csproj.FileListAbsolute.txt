@@ -1,0 +1,13 @@
+D:\Users\Lenovo\reposMain\GameVisualFares\obj\Debug\GameVisualFares.csproj.AssemblyReference.cache
+D:\Users\Lenovo\reposMain\GameVisualFares\obj\Debug\VisualProjectGame.Form1.resources
+D:\Users\Lenovo\reposMain\GameVisualFares\obj\Debug\VisualProjectGame.Form2.resources
+D:\Users\Lenovo\reposMain\GameVisualFares\obj\Debug\VisualProjectGame.Form3.resources
+D:\Users\Lenovo\reposMain\GameVisualFares\obj\Debug\GameVisualFares.Properties.Resources.resources
+D:\Users\Lenovo\reposMain\GameVisualFares\obj\Debug\GameVisualFares.csproj.GenerateResource.cache
+D:\Users\Lenovo\reposMain\GameVisualFares\obj\Debug\GameVisualFares.csproj.CoreCompileInputs.cache
+D:\Users\Lenovo\reposMain\GameVisualFares\bin\Debug\GameVisualFares.exe.config
+D:\Users\Lenovo\reposMain\GameVisualFares\bin\Debug\GameVisualFares.exe
+D:\Users\Lenovo\reposMain\GameVisualFares\bin\Debug\GameVisualFares.pdb
+D:\Users\Lenovo\reposMain\GameVisualFares\obj\Debug\GameVisualFares.exe
+D:\Users\Lenovo\reposMain\GameVisualFares\obj\Debug\GameVisualFares.pdb
+D:\Users\Lenovo\reposMain\GameVisualFares\obj\Debug\GameVisualFares.Form4.resources

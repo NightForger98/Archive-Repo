@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis of Elegance|About us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+      body{
+    background:linear-gradient(-45deg, white 50%, #f7b9d7 0%);
+}
+        .heading{
+          width: 90%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+          margin: 20px auto;
+       }
+       .heading h1{
+       text-align: center;
+       color: #000;
+       margin-top: 1rem;
+       }
+       .border{
+           width: 100px;
+           height: 10px;
+           background: #34495e;
+           margin: 40px auto;
+       }
+       .heading p{
+           font-size: 18px;
+           color: #000;
+           margin-bottom: 35px;
+       }
+       .container{
+           width: 90%;
+           margin: 0 auto;
+           margin-top: auto;
+           padding: 10px 20px;
+       }
+       .about{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           flex-wrap: wrap;
+       }
+       .about-image{
+           flex: 1;
+           margin-right: 40px;
+           overflow: hidden;
+       }
+       .about-image img{
+           float: left;
+           max-width: 100%;
+           margin-left: 5px;
+           height: auto;
+           display: block;
+           transition: 0.5s ease;
+       }
+       .about-image:hover img{
+           transform: scale(1.2);
+       }
+       .about-containt{
+           flex: 1;
+       }
+       .about-containt h2{
+           font-size: 26px;
+           margin-bottom: 15px;
+           color: #000;
+       }
+       .about-containt p{
+           font-size: 19px;
+           line-height: 1.5;
+           color: #000;
+       }
+       
+       .box {
+           float: left;
+           width: 33.3%;
+           text-align: center;
+           padding: 50px 0;
+       }
+       .main-footer {
+           background: #333333;
+           color: #fff;
+           text-align: center;
+           padding: 20px;
+       }
+       @media screen and (min-width:768px){
+           .heading{
+               padding: 0 20px;
+           }
+           .heading h1{
+       font-size: 36px;
+           }
+           .heading p{
+               font-size: 17px;
+               margin-bottom: 0px;
+           }
+           .container{
+               padding: 0px;
+           }
+           .about{
+               padding: 20px;
+               flex-direction: column;
+           }
+           .about-image{
+               margin-right: 0px;
+               margin-bottom: 15px;
+           }
+           .about-containt P{
+               padding: 0px;
+               font-size: 16px;
+           }
+       }
+
+
+    </style>
+        <header>
+            <nav id="navbar">
+                <div class="container">
+                    <h1 class="logo" text="white">
+                        <span class="text-primary">Oasis </span>of <span class="text-primary">Elegance</span>
+                    </h1>
+                    <ul>
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About us </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="rooms.html" class="dropbtn">Rooms</a>
+                            <div class="dropdown-content">
+                             <a  href="#suites">Suites</a>
+                            <a  href="#deluxe">Deluxe Double room</a>
+                             <a  href="#luxury">Luxury room</a>
+                            <a  href="#junior">Junior Room</a>
+                            </div>
+                        </li> 
+                        <li class="nav-item dropdown">
+                            <a href="services.html" class="dropbtn">Services</a>
+                            <div class="dropdown-content">
+                                <a  href="restaurant.html">Restaurant</a>
+                                <a  href="beauty spa.html">Beauty Spa</a>
+                                <a  href="gym.html">Gym</a>
+                            </div>
+                        </li> 
+                     <li><a href="#contact" class="nav-link">Contact us </a></li>
+                    </ul>
+                    </div>
+                   </nav>
+                    </header>
+            <div class="heading">
+                <h1> about us </h1>
+                <div class="border"></div>
+                <p> Oasis of elegance agency has been making travel dreams come true for 
+                    adventurers and explorers from around the world. </p>
+            </div>
+            <div class="container">
+        <section class="about"> 
+            <div class="about-image">
+                <img src="image/about.jpg">
+            </div>
+            <div class="about-containt">
+                <h2>Oasis of Elegance Agency</h2>
+                <p> Oasis of elegance Hotel is a family-friendly hotel that offers a wide range of accommodation types, from rooms to suites.
+                     All this in the peaceful surroundings of our beautiful gardens, 
+                    will make your time at an unforgettable holiday. Esteemed guests are welcome to 
+                    relax and unwind in a quiet and elegant setting
+                     in the popular resort of and enjoy a genuine experience of leisure, pleasure, 
+                     gastronomy and wellness within the premises of the resort</p>
+                    <a href="#" class="btn1"> Read more</a>
+            </div>
+        </section>
+            </div>
+            <br>
+                <div class="container">
+                    <h2 class="l-heading">What our Guests Says</h2>
+                    <div class="bg-primary">
+                        <h3>Samtha</h3>
+                        <p>A great place to live and enjoy a comfortable life with lots of useful facilities providing the best living standards.  
+                        </p>
+                    </div>
+                    <div class="bg-primary">
+                        <h3>Jean</h3>
+                        <p>A beautifully located place to visit and explore the beauty of Lebanon with bundle of tasty meals offered. 
+                        </p>
+                    </div>
+                </div>
+            <br>
+            <footer class="main-footer">
+                <p> Oasis of elegance &#169 | All rights Reserved by Oasis of Elegance</p>
+            </div>
+            </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+SELECT type, Units from equipment where LotNumber in (SELECT EquipmentUsed FROM Sports WHERE LotNumber  IN (SELECT EquipmentLot FROM Building))

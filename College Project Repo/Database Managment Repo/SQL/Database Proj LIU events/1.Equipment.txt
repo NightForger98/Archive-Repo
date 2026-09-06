@@ -1,0 +1,8 @@
+LotNumber,Type,Units
+1,FBall     ,20
+2,Gloveset  ,10
+3,Helmets   ,10
+4,Bball     ,7
+5,Rackets   ,12
+6,Tball     ,15
+7,PongSet   ,5

@@ -1,0 +1,75 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "mapz2.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "D:/output/assets/maptest1.tmx": {
+            "scale": 1.3916015625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128.2694736842105,
+                "y": 26.588070175438588
+            }
+        },
+        "D:/output/assets/ter1.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "maptest1.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 135.25,
+                "y": 123.5
+            }
+        },
+        "mapz2.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 236.5,
+                "y": 218
+            }
+        },
+        "nat1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "ter1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/Lenovo/Desktop/curren/free version",
+    "map.height": 50,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 50,
+    "openFiles": [
+        "nat1.tsx",
+        "ter1.tsx",
+        "maptest1.tmx",
+        "D:/output/assets/maptest1.tmx",
+        "mapz2.tmx"
+    ],
+    "project": "test1.tiled-project",
+    "recentFiles": [
+        "nat1.tsx",
+        "ter1.tsx",
+        "maptest1.tmx",
+        "D:/output/assets/maptest1.tmx",
+        "mapz2.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}

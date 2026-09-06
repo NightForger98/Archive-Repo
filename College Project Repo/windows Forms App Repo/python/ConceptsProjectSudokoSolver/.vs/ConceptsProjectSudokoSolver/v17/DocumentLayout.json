@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\Lenovo\\reposMain\\ConceptsProjectSudokoSolver\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3203CFF7-C442-421E-94F1-4A585DE7DD84}|ConceptsProjectSudokoSolver.csproj|d:\\users\\lenovo\\reposmain\\conceptsprojectsudokosolver\\sodukosolverpar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3203CFF7-C442-421E-94F1-4A585DE7DD84}|ConceptsProjectSudokoSolver.csproj|solutionrelative:sodukosolverpar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3203CFF7-C442-421E-94F1-4A585DE7DD84}|ConceptsProjectSudokoSolver.csproj|d:\\users\\lenovo\\reposmain\\conceptsprojectsudokosolver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3203CFF7-C442-421E-94F1-4A585DE7DD84}|ConceptsProjectSudokoSolver.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 6,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\reposMain\\ConceptsProjectSudokoSolver\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\reposMain\\ConceptsProjectSudokoSolver\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T20:56:21.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SodukoSolverPar.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\reposMain\\ConceptsProjectSudokoSolver\\SodukoSolverPar.cs",
+              "RelativeDocumentMoniker": "SodukoSolverPar.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\reposMain\\ConceptsProjectSudokoSolver\\SodukoSolverPar.cs",
+              "RelativeToolTip": "SodukoSolverPar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T20:50:23.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

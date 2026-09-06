@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events by S.|Packages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+body{
+    background:linear-gradient(-45deg, white 50%, #f07818 0%);
+}
+ .heading h1{
+       text-align: center;
+       color: #000;
+       margin-top: 1rem;
+       }
+ .border{
+           width: 100px;
+           height: 10px;
+           background: indianred;
+           margin: 40px auto;
+       }
+.back{
+           background-color:white;
+}
+.content a{
+  text-decoration: none;
+  color: white;
+}
+.content{
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: 0.4s;
+  background: #f2f2f2;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.content:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 10px 10px rgba(0,0,0,0.23); 
+  transform: translate(0px, -8px);
+}
+img{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+.heading p{
+  text-align: center;
+  color: black;
+  padding-top: 0 8px;
+}
+@media (min-width: 768px) {
+    .content{
+        width: 20%;
+        margin: 15px;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 10px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        transition: 0.4s;
+        background: #f2f2f2;
+        }
+    }
+@media (max-width: 650px) {
+    .content{
+        width: 100%;
+    }
+    
+}
+
+    </style>
+        <header>
+            <nav id="navbar">
+                <div class="container">
+                    <h1 class="logo" text="white">
+                        <span class="text-primary">decorated </span>by <span class="text-primary">Sa.</span>
+                    </h1>
+                    <ul>
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About us </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="services.html" class="dropbtn">Services</a>
+                            <div class="dropdown-content">
+                                <a  href="formA.html">Packages</a>
+                                <a  href="formB.html">Catering</a>
+                                <a  href="formC.html">Offers</a>
+                            </div>
+                        </li> 
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropbtn">Show Rooms</a>
+                            <div class="dropdown-content">
+                             <a  href="#">Sets / Templates</a>
+                           
+                             <a  href="#">Popular</a>
+                            <a  href="formD.html">Custom</a>
+                            </div>
+                        </li> 
+                     <li><a href="contact.html" class="nav-link">Contact us </a></li>
+                    </ul>
+                    </div>
+                   </nav>
+                    </header>
+    
+            <div class="gallery">
+                <div class="heading">
+                    <h1> Packages</h1>
+                    <div class="border"></div>
+                    <div class="back">
+                    <p>Our packages are refined to each seperate occasion based on your desired settings, 
+                        choose between three diffrent main themes depinding on how you want the night to go.</p>
+                   </div>
+                   </div>
+                <div class="content">
+                <img src="images/bd1.jpeg">
+                <h3>Formal</h3>
+                <p> Bussiness meeting or engagment ceremony, a mix of elegance and Tidiness will be present at your table.</p>
+                <button type="button" class="btn1">
+                    <a href="formAres.html"> <b>Book</b></a>
+                </button>
+            </div>
+            <div class="content">
+                <img src="images/bd6.jpeg">
+                <h3>Informal</h3>
+                <p>High School and College reunions, or just a fun day with the family.</p>
+                <button type="button" class="btn1">
+                    <a href="formAres.html"><b> Book</b></a>
+                </button>
+             </div>
+                    <div class="content">
+                        <img src="images/kid1.jpeg">
+                        <h3>Children</h3>
+                        <p>A full transformation, where we take you to your kid's imagination</p>
+                        <button type="button" class="btn1">
+                            <a href="formAres.html"> <b>Book</b></a>
+                        </button>
+
+                    </div>
+                    
+            </div>
+           
+          
+</body>
+</html>

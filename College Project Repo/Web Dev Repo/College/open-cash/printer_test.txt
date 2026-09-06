@@ -1,0 +1,2 @@
+=== PRINTER TEST ===
+Alternative method test

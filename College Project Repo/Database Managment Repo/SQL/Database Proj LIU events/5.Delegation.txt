@@ -1,0 +1,6 @@
+ChiefID,FirstName,LastName,PhoneNumber,Res_ID
+1,Rami,Abbas,3123456,
+2,Ja3far,Fadel,3112233,
+3,Yousif,Smeedi,3445566,
+4,Zein,Ahmad,81849930,
+5,Hadi,Hamza,71666333,

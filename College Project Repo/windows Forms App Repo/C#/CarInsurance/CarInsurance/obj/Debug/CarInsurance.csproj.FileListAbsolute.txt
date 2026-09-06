@@ -1,0 +1,12 @@
+C:\Summer2023\CarInsurance\CarInsurance\bin\Debug\CarInsurance.exe.config
+C:\Summer2023\CarInsurance\CarInsurance\bin\Debug\CarInsurance.exe
+C:\Summer2023\CarInsurance\CarInsurance\bin\Debug\CarInsurance.pdb
+C:\Summer2023\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csprojResolveAssemblyReference.cache
+C:\Summer2023\CarInsurance\CarInsurance\obj\Debug\CarInsurance.Form1.resources
+C:\Summer2023\CarInsurance\CarInsurance\obj\Debug\CarInsurance.Properties.Resources.resources
+C:\Summer2023\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.GenerateResource.Cache
+C:\Summer2023\CarInsurance\CarInsurance\obj\Debug\CarInsurance.exe
+C:\Summer2023\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
+C:\Summer2023\CarInsurance\CarInsurance\obj\Debug\CarInsurance.Form2.resources
+C:\Summer2023\CarInsurance\CarInsurance\obj\Debug\CarInsurance.Form3.resources
+C:\Summer2023\CarInsurance\CarInsurance\obj\Debug\CarInsurance.Form4.resources

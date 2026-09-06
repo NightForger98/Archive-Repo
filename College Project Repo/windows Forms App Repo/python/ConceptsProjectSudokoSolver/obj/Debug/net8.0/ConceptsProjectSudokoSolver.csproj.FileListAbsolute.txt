@@ -1,0 +1,14 @@
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\obj\Debug\net8.0\ConceptsProjectSudokoSolver.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\obj\Debug\net8.0\ConceptsProjectSudokoSolver.AssemblyInfoInputs.cache
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\obj\Debug\net8.0\ConceptsProjectSudokoSolver.AssemblyInfo.cs
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\obj\Debug\net8.0\ConceptsProjectSudokoSolver.csproj.CoreCompileInputs.cache
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\bin\Debug\net8.0\ConceptsProjectSudokoSolver.exe
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\bin\Debug\net8.0\ConceptsProjectSudokoSolver.deps.json
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\bin\Debug\net8.0\ConceptsProjectSudokoSolver.runtimeconfig.json
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\bin\Debug\net8.0\ConceptsProjectSudokoSolver.dll
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\bin\Debug\net8.0\ConceptsProjectSudokoSolver.pdb
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\obj\Debug\net8.0\ConceptsProjectSudokoSolver.dll
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\obj\Debug\net8.0\refint\ConceptsProjectSudokoSolver.dll
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\obj\Debug\net8.0\ConceptsProjectSudokoSolver.pdb
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\obj\Debug\net8.0\ConceptsProjectSudokoSolver.genruntimeconfig.cache
+D:\Users\Lenovo\reposMain\ConceptsProjectSudokoSolver\obj\Debug\net8.0\ref\ConceptsProjectSudokoSolver.dll

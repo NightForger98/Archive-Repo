@@ -1,0 +1,10 @@
+RoomID,HotelName,Address,RoomNumber,Type,Price
+1,GoldenPlaza                   ,Highway                       ,1,single    ,120
+2,GoldenPlaza                   ,Highway                       ,2,Double    ,200
+3,Riviera                       ,Coast                         ,1,Double    ,300
+4,Riviera                       ,Coast                         ,2,single    ,150
+5,Movenpick                     ,Rawshe                        ,10,single    ,300
+6,Movenpick                     ,Rawshe                        ,12,Double    ,300
+7,RestHouse                     ,Hamra                         ,101,Single    ,100
+8,RestHouse                     ,Hamra                         ,102,Single    ,120
+9,WoodInn                       ,Biel                          ,6,Double    ,100

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="ChildForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="week8,frmLinqInteger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="week3Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UsingMDIForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="week4Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="week5Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="week6Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="week7Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

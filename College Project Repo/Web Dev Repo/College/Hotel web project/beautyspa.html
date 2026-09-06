@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oasis of elegance|beauty spa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+body{
+    background:linear-gradient(-45deg, white 50%, #f07818 0%);
+}
+ .heading h1{
+       text-align: center;
+       color: #000;
+       margin-top: 1rem;
+       }
+ .border{
+           width: 100px;
+           height: 10px;
+           background: indianred;
+           margin: 40px auto;
+       }
+.back{
+           background-color:white;
+}
+.content a{
+  text-decoration: none;
+  color: white;
+}
+.content{
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: 0.4s;
+  background: #f2f2f2;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.content:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 10px 10px rgba(0,0,0,0.23); 
+  transform: translate(0px, -8px);
+}
+img{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+.heading p{
+  text-align: center;
+  color: black;
+  padding-top: 0 8px;
+}
+@media (min-width: 768px) {
+    .content{
+        width: 20%;
+        margin: 15px;
+        box-sizing: border-box;
+        float: left;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 10px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        transition: 0.4s;
+        background: #f2f2f2;
+        }
+    }
+@media (max-width: 650px) {
+    .content{
+        width: 100%;
+    }
+    
+}
+
+    </style>
+        <header>
+            <nav id="navbar">
+                <div class="container">
+                    <h1 class="logo" text="white">
+                        <span class="text-primary">Oasis </span>of <span class="text-primary">Elegance</span>
+                    </h1>
+                    <ul>
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About us </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="rooms.html" class="dropbtn">Rooms</a>
+                            <div class="dropdown-content">
+                             <a  href="#suites">Suites</a>
+                            <a  href="#deluxe">Deluxe Double room</a>
+                             <a  href="#luxury">Luxury room</a>
+                            <a  href="#junior">Junior Room</a>
+                            </div>
+                        </li> 
+                        <li class="nav-item dropdown">
+                            <a href="services.html" class="dropbtn">Services</a>
+                            <div class="dropdown-content">
+                                <a  href="restaurant.html">Restaurant</a>
+                                <a  href="beauty spa.html">Beauty Spa</a>
+                                <a  href="gym.html">Gym</a>
+                            </div>
+                        </li> 
+                     <li><a href="#contact" class="nav-link">Contact us </a></li>
+                    </ul>
+                    </div>
+                   </nav>
+                    </header>
+    
+            <div class="gallery">
+                <div class="heading">
+                    <h1> Beauty spa</h1>
+                    <div class="border"></div>
+                    <div class="back">
+                    <p>Nestled within the luxurious confines of our hotel, our Beauty Spa offers a tranquil retreat 
+                        from the hustle and bustle of everyday life. Step into a haven of serenity, where skilled therapists
+                         and rejuvenating treatments
+                         await to pamper your mind, body, and soul.</p>
+                   </div>
+                   </div>
+                <div class="content">
+                <img src="image/facialtreatment.jpg">
+                <h3>Luxure treatment for facial</h3>
+                <p> Luxure treatment for facial is a full deep cleaning facial includig right treatment, massage and face relaxation.</p>
+                <button type="button" class="btn1">
+                    <a href="spareservation.html"> <b>Book</b></a>
+                </button>
+            </div>
+            <div class="content">
+                <img src="image/luxurymassage.jpg">
+                <h3>Luxury massage</h3>
+                <p>Luxury massage is a full body relaxation massage for a specified time.</p>
+                <button type="button" class="btn1">
+                    <a href="spareservation.html"><b> Book</b></a>
+                </button>
+             </div>
+                    <div class="content">
+                        <img src="image/luxuryspa.jpg">
+                        <h3>Luxury spa</h3>
+                        <p>Luxury spa is a combination package of relaxation, treatment and taking care of you face and body.</p>
+                        <button type="button" class="btn1">
+                            <a href="spareservation.html"> <b>Book</b></a>
+                        </button>
+
+                    </div>
+                    
+            </div>
+           
+          
+</body>
+</html>
